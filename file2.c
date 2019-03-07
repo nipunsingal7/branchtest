@@ -46,3 +46,14 @@ for(a=0;a<=100;a++)                                /*for loop is used so that we
                      printf("\n\n");
                      break;
 
+		      
+		            case 3:printf("\nRound1 Begins.......Write T/F\n\n");
+                     printf("Q1. C language is developed by Dennis M. Ritchie?\n answer--");
+                     scanf("%s",&ans);                             /*this will store the users answer*/
+                     if(ans=='T'||ans=='t')
+                     {scr[0]=1;}                       /*if users answer is correct it will store 1 in the scr array*/
+                     else                               /*otherwise zero in scr array*/
+                     {scr[0]=-1;}
+                     printf("\n\n");
+                     break;
+
