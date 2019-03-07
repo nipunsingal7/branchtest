@@ -13,13 +13,13 @@ int main()
 
     sum = num1 + num2;
     sub= num1-num2;  
-   
-
+   mult=num1*num2;
+   div=num1/num;
 
     printf("SUM = %d\n", sum);
      printf("sub = %d\n", sub);
-
-
+     printf("mult=%d\n",mult);
+     printf("div=%d\n",div);
     return 0;
 }
 
